@@ -140,6 +140,64 @@
       "formats": "30 ml bottles and customized packs",
       "description": "Quality herbal blend crafted tosupport your active lifestyle every day.\nReady to Drink\nDaily EnergySupport\nSupports Men'sVitality\nImmuneSupport\nConvenientSingle-ServeBottles\nBotanic",
       "category": "Functional drinks"
+    },
+    {
+      "mainImage": "/uploads/chatgpt-image-2026年8月9日-10_31_03-1-.png",
+      "summary": "Herbal Dietary Supplements",
+      "categorySlug": "softgels",
+      "name": "Bitter Melon Chromium Capsules",
+      "slug": "bitter-melon-chromium-capsules",
+      "featured": true,
+      "gallery": [
+        "/uploads/chatgpt-image-2026年8月9日-10_31_03-2-.png",
+        "/uploads/chatgpt-image-2026年8月9日-10_31_03-3-.png",
+        "/uploads/chatgpt-image-2026年8月9日-10_31_04-4-.png",
+        "/uploads/chatgpt-image-2026年8月9日-10_31_04-5-.png",
+        "/uploads/chatgpt-image-2026年8月9日-10_31_05-6-.png",
+        "/uploads/chatgpt-image-2026年8月9日-10_31_05-7-.png"
+      ],
+      "service": "OEM / ODM / Private Label Manufacturing / Custom Formulation / Custom Packaging",
+      "formats": "Capsules, Retail Bottles, Bulk Supply",
+      "description": "Brief Description: A convenient capsule formula made with selected botanical ingredients including bitter melon, astragalus root, notoginseng, rehmannia root, and chromium picolinate. Each capsule contains 0.45 g, with 60 capsules per bottle and a total net content of 27 g. Formula, capsule specifications, fill quantity, bottle, packaging, and labels can be customized according to private-label customer requirements. OEM/ODM and bulk supply services are available.",
+      "category": "Herbal Dietary Supplements"
+    },
+    {
+      "mainImage": "/uploads/chatgpt-image-2026年8月9日-10_55_00-1-.png",
+      "summary": "Herbal Dietary Supplements",
+      "categorySlug": "softgels",
+      "name": "Ginseng Reishi Notoginseng Capsules",
+      "slug": "ginseng-reishi-notoginseng-capsules",
+      "featured": true,
+      "gallery": [
+        "/uploads/chatgpt-image-2026年8月9日-10_55_01-2-.png",
+        "/uploads/chatgpt-image-2026年8月9日-10_55_01-3-.png",
+        "/uploads/chatgpt-image-2026年8月9日-10_55_01-4-.png",
+        "/uploads/chatgpt-image-2026年8月9日-10_55_02-5-.png",
+        "/uploads/chatgpt-image-2026年8月9日-10_55_02-6-.png",
+        "/uploads/chatgpt-image-2026年8月9日-10_55_03-7-.png"
+      ],
+      "service": "OEM / ODM / Private Label Manufacturing / Custom Formulation / Custom Packaging",
+      "formats": "Capsules / Retail Bottles / Bulk Supply",
+      "description": "A convenient herbal capsule formula made with selected botanical ingredients including ginseng, reishi mushroom, notoginseng, and goji berry. Designed for daily wellness support in an easy-to-take capsule format. Each capsule contains 0.45 g, with 60 capsules per bottle and a total net content of 27 g. Formula, capsule specifications, fill quantity, bottle, packaging, and labels can be customized according to private-label customer requirements. OEM/ODM and bulk supply services are available.",
+      "category": "Herbal Dietary Supplements"
+    },
+    {
+      "mainImage": "/uploads/cb82bc8d-f31d-4a0e-9914-bab196fbb46c.png",
+      "summary": "Fruit-Based Wellness Beverages",
+      "categorySlug": "herbal-beverages",
+      "name": "Wuhe Fruit Vitality Drink",
+      "slug": "wuhe-fruit-vitality-drink",
+      "featured": true,
+      "gallery": [
+        "/uploads/2ac84711-816a-4837-8edf-3be0f258e7bc.png",
+        "/uploads/004.jpg",
+        "/uploads/66518ac2-f4d8-4632-b96a-59656dabfc4f.png",
+        "/uploads/c24056ec-bd49-46a5-958c-3fa732e3ba1e.png"
+      ],
+      "service": "OEM / ODM / Private Label Manufacturing / Custom Formulation / Custom Flavors / Custom Packaging",
+      "formats": "Single-Serve Bottles / Retail Boxes / Bulk Supply",
+      "description": "A convenient fruit-based wellness drink made with selected fruit ingredients including sour jujube, cherry, hawthorn, fig, and crabapple. Each bottle contains 30 ml, with 10 individually sealed bottles per box and a total net content of 300 ml. Designed in a portable single-serve format for convenient daily use. Formula, flavor, bottle size, packaging, labels, and branding can be customized according to private-label customer requirements. OEM/ODM and bulk supply services are available.",
+      "category": "Fruit-Based Wellness Beverages"
     }
   ]
 }
