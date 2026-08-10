@@ -120,6 +120,26 @@
       "formats": "30 ml bottles and customized packs",
       "description": "A fruit-flavored calcium drink concept for nutrition and family wellness lines. Formula, flavor and packaging can be developed around your target consumer.",
       "category": "Nutrition Supplement"
+    },
+    {
+      "mainImage": "/uploads/chatgpt-image-2026年8月7日-14_43_11-1-.png",
+      "summary": "Quality herbal blend crafted tosupport your active lifestyle every day.",
+      "categorySlug": "herbal-beverages",
+      "name": "Herbal Wellness Shot",
+      "slug": "Herbal Wellness Shot",
+      "featured": true,
+      "gallery": [
+        "/uploads/chatgpt-image-2026年8月7日-14_43_11-2-.png",
+        "/uploads/chatgpt-image-2026年8月7日-14_43_13-3-.png",
+        "/uploads/chatgpt-image-2026年8月7日-14_43_14-4-.png",
+        "/uploads/chatgpt-image-2026年8月7日-14_43_14-5-.png",
+        "/uploads/chatgpt-image-2026年8月7日-14_43_15-6-.png",
+        "/uploads/chatgpt-image-2026年8月7日-14_43_15-7-.png"
+      ],
+      "service": "Private label / Packaging customization",
+      "formats": "30 ml bottles and customized packs",
+      "description": "Quality herbal blend crafted tosupport your active lifestyle every day.\nReady to Drink\nDaily EnergySupport\nSupports Men'sVitality\nImmuneSupport\nConvenientSingle-ServeBottles\nBotanic",
+      "category": "Functional drinks"
     }
   ]
 }
