@@ -4,8 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>KUNCAIZHINEN Website Management</title>
+  <style>
+    .batch-help{font:14px/1.6 Arial,sans-serif;background:#eef8f5;color:#123f34;padding:12px 18px;border-bottom:1px solid #cde7df}
+    .batch-help strong{color:#087f68}
+  </style>
 </head>
 <body>
+<div class="batch-help"><strong>Batch publishing:</strong> Save one or two products first. These saves do not deploy the live site. Then open “Publish Website”, change the batch label, and publish once. The live website will update with one Netlify deployment.</div>
 <script>window.CMS_MANUAL_INIT = true;</script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script src="https://unpkg.com/decap-cms@^3.8.0/dist/decap-cms.js"></script>
@@ -23,94 +28,42 @@ const categoryOptions = [
   { label: 'Herbal Beverages', value: 'herbal-beverages' }
 ];
 
-const mediaFields = [
-  { label: 'Photos', name: 'images', widget: 'list', required: false,
-    field: { label: 'Photo', name: 'image', widget: 'image' } },
-  { label: 'Videos', name: 'videos', widget: 'list', required: false,
-    field: { label: 'Video file', name: 'video', widget: 'file' } }
+const productFields = [
+  { label: 'URL name (lowercase English, numbers and hyphens only)', name: 'slug', widget: 'string', pattern: ['^[a-z0-9]+(?:-[a-z0-9]+)*$', 'Example: collagen-peptide-drink'] },
+  { label: 'Product name', name: 'name', widget: 'string' },
+  { label: 'Product category', name: 'categorySlug', widget: 'select', options: categoryOptions, required: false, default: 'herbal-beverages' },
+  { label: 'Display category name', name: 'category', widget: 'string', required: false },
+  { label: 'Short introduction', name: 'summary', widget: 'string' },
+  { label: 'Detailed introduction', name: 'description', widget: 'text' },
+  { label: 'Main product image', name: 'mainImage', widget: 'image' },
+  { label: 'Detail images', name: 'gallery', widget: 'list', required: false, field: { label: 'Image', name: 'image', widget: 'image' } },
+  { label: 'Available formats', name: 'formats', widget: 'string', required: false },
+  { label: 'Manufacturing service', name: 'service', widget: 'string', required: false },
+  { label: 'Show on homepage', name: 'featured', widget: 'boolean', default: true }
 ];
 
-CMS.init({
-  config: {
-    load_config_file: false,
-    backend: { name: 'git-gateway', branch: 'main' },
-    media_folder: 'uploads',
-    public_folder: '/uploads',
-    collections: [
-      {
-        name: 'catalog',
-        label: 'Product Management',
-        files: [
-          {
-            name: 'products',
-            label: 'Products',
-            file: 'products.json',
-            format: 'json',
-            fields: [
-              {
-                label: 'Product List',
-                name: 'products',
-                widget: 'list',
-                summary: '{{fields.name}}',
-                fields: [
-                  { label: 'URL name (English, no spaces)', name: 'slug', widget: 'string', hint: 'Example: collagen-peptide-drink' },
-                  { label: 'Product name', name: 'name', widget: 'string' },
-                  { label: 'Product category', name: 'categorySlug', widget: 'select', options: categoryOptions, required: false, default: 'herbal-beverages' },
-                  { label: 'Display category name', name: 'category', widget: 'string', required: false },
-                  { label: 'Short introduction', name: 'summary', widget: 'string' },
-                  { label: 'Detailed introduction', name: 'description', widget: 'text' },
-                  { label: 'Main product image', name: 'mainImage', widget: 'image' },
-                  { label: 'Detail images', name: 'gallery', widget: 'list', required: false,
-                    field: { label: 'Image', name: 'image', widget: 'image' } },
-                  { label: 'Available formats', name: 'formats', widget: 'string', required: false },
-                  { label: 'Manufacturing service', name: 'service', widget: 'string', required: false },
-                  { label: 'Show on homepage', name: 'featured', widget: 'boolean', default: true }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        name: 'company',
-        label: 'Company Profile',
-        files: [
-          {
-            name: 'companyContent',
-            label: 'Company Introduction and Contact',
-            file: 'company.json',
-            format: 'json',
-            fields: [
-              {
-                label: 'Company Introduction',
-                name: 'about',
-                widget: 'object',
-                fields: [
-                  { label: 'Title', name: 'title', widget: 'string' },
-                  { label: 'Text introduction', name: 'text', widget: 'text' },
-                  ...mediaFields
-                ]
-              },
-              {
-                label: 'Contact Us',
-                name: 'contact',
-                widget: 'object',
-                fields: [
-                  { label: 'Title', name: 'title', widget: 'string' },
-                  { label: 'Text introduction', name: 'text', widget: 'text' },
-                  { label: 'Email', name: 'email', widget: 'string' },
-                  { label: 'WhatsApp', name: 'whatsapp', widget: 'string' },
-                  { label: 'Address', name: 'address', widget: 'text' },
-                  ...mediaFields
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-});
+const mediaFields = [
+  { label: 'Photos', name: 'images', widget: 'list', required: false, field: { label: 'Photo', name: 'image', widget: 'image' } },
+  { label: 'Videos', name: 'videos', widget: 'list', required: false, field: { label: 'Video file', name: 'video', widget: 'file' } }
+];
+
+CMS.init({config:{
+  load_config_file:false,
+  backend:{name:'git-gateway',branch:'main'},
+  media_folder:'uploads',
+  public_folder:'/uploads',
+  collections:[
+    {name:'products',label:'Products — save independently',folder:'products',create:true,delete:true,extension:'json',format:'json',identifier_field:'name',slug:'{{slug}}',summary:'{{name}}',fields:productFields},
+    {name:'release',label:'Publish Website — once after 1–2 products',files:[{name:'releaseWebsite',label:'Publish pending products to live website',file:'.release.json',format:'json',fields:[
+      {label:'Batch label (change this every time)',name:'batchLabel',widget:'string',hint:'Example: 2026-08-10 batch 2'},
+      {label:'Instructions',name:'instructions',widget:'hidden',default:'After saving up to two products, change this text and publish once to update the live website.'}
+    ]}]},
+    {name:'company',label:'Company Profile',files:[{name:'companyContent',label:'Company Introduction and Contact',file:'company.json',format:'json',fields:[
+      {label:'Company Introduction',name:'about',widget:'object',fields:[{label:'Title',name:'title',widget:'string'},{label:'Text introduction',name:'text',widget:'text'},...mediaFields]},
+      {label:'Contact Us',name:'contact',widget:'object',fields:[{label:'Title',name:'title',widget:'string'},{label:'Text introduction',name:'text',widget:'text'},{label:'Email',name:'email',widget:'string'},{label:'WhatsApp',name:'whatsapp',widget:'string'},{label:'Address',name:'address',widget:'text'},...mediaFields]}
+    ]}]}
+  ]
+}});
 </script>
 </body>
 </html>

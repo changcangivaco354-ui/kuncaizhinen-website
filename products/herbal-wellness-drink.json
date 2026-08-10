@@ -1,0 +1,21 @@
+{
+    "mainImage":  "/herbal-drink.jpg",
+    "summary":  "Custom botanical formulation and packaging.",
+    "categorySlug":  "herbal-beverages",
+    "name":  "Herbal Wellness Drink",
+    "slug":  "herbal-wellness-drink",
+    "featured":  true,
+    "gallery":  [
+                    "/herbal-drink.jpg",
+                    "/uploads/0001.jpg",
+                    "/uploads/0002.jpg",
+                    "/uploads/0003.jpg",
+                    "/uploads/0004.jpg",
+                    "/uploads/0005.jpg",
+                    "/uploads/0006.jpg"
+                ],
+    "service":  "OEM / ODM / Export cooperation",
+    "formats":  "30 ml oral liquid and custom formats",
+    "description":  "A plant-based functional drink format suitable for customized herbal concepts. Ingredient combination, taste and claims should be adapted to the regulations of the target market.",
+    "category":  "Functional Beverage"
+}

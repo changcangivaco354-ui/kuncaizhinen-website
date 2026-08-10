@@ -1,0 +1,20 @@
+{
+    "mainImage":  "/jujube-rose.jpg",
+    "summary":  "Concentrated herbal extract drink.",
+    "categorySlug":  "herbal-beverages",
+    "name":  "Sour Jujube Seed \u0026 Rose",
+    "slug":  "sour-jujube-rose",
+    "featured":  true,
+    "gallery":  [
+                    "/jujube-rose.jpg",
+                    "/uploads/0001.jpg",
+                    "/uploads/0002.jpg",
+                    "/uploads/0003.jpg",
+                    "/uploads/0004.jpg",
+                    "/uploads/0005.jpg"
+                ],
+    "service":  "OEM / ODM / Bulk export",
+    "formats":  "30 ml bottles, 8-bottle or custom packs",
+    "description":  "A concentrated herbal beverage combining sour jujube seed and rose, with customizable formula strength, sweetness, bottle and box design.",
+    "category":  "Herbal Beverage"
+}

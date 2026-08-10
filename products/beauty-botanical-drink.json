@@ -1,0 +1,21 @@
+{
+    "mainImage":  "/beauty-drink.png",
+    "summary":  "Peach kernel and rose botanical beverage.",
+    "categorySlug":  "herbal-beverages",
+    "name":  "Beauty Botanical Drink",
+    "slug":  "beauty-botanical-drink",
+    "featured":  true,
+    "gallery":  [
+                    "/beauty-drink.png",
+                    "/uploads/01.png",
+                    "/uploads/02.png",
+                    "/uploads/03.png",
+                    "/uploads/04.png",
+                    "/uploads/05.png",
+                    "/uploads/06.png"
+                ],
+    "service":  "Private label / Formula customization",
+    "formats":  "30 ml bottles and customized gift boxes",
+    "description":  "A botanical beverage concept for beauty-oriented product portfolios, available with customized formulation, flavor profile and premium packaging.",
+    "category":  "Wellness Supplement"
+}

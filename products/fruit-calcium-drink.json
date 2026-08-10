@@ -1,0 +1,20 @@
+{
+    "mainImage":  "/fruit-calcium.jpg",
+    "summary":  "Fruit-flavored calcium beverage format.",
+    "categorySlug":  "herbal-beverages",
+    "name":  "Fruit Calcium Drink",
+    "slug":  "fruit-calcium-drink",
+    "featured":  true,
+    "gallery":  [
+                    "/fruit-calcium.jpg",
+                    "/uploads/00001.jpg",
+                    "/uploads/00002.jpg",
+                    "/uploads/00003.jpg",
+                    "/uploads/00005.jpg",
+                    "/uploads/00006.jpg"
+                ],
+    "service":  "Private label / Packaging customization",
+    "formats":  "30 ml bottles and customized packs",
+    "description":  "A fruit-flavored calcium drink concept for nutrition and family wellness lines. Formula, flavor and packaging can be developed around your target consumer.",
+    "category":  "Nutrition Supplement"
+}
