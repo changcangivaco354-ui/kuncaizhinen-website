@@ -54,7 +54,7 @@ CMS.init({config:{
   public_folder:'/uploads',
   collections:[
     {name:'products',label:'Products — save independently',folder:'products',create:true,delete:true,extension:'json',format:'json',identifier_field:'name',slug:'{{slug}}',summary:'{{name}}',fields:productFields},
-    {name:'release',label:'Publish Website — once after 1–2 products',files:[{name:'releaseWebsite',label:'Publish pending products to live website',file:'.release.json',format:'json',fields:[
+    {name:'release',label:'Publish Website — once after 1–2 products',files:[{name:'releaseWebsite',label:'Publish pending products to live website',file:'release.json',format:'json',fields:[
       {label:'Batch label (change this every time)',name:'batchLabel',widget:'string',hint:'Example: 2026-08-10 batch 2'},
       {label:'Instructions',name:'instructions',widget:'hidden',default:'After saving up to two products, change this text and publish once to update the live website.'}
     ]}]},
