@@ -1,4 +1,4 @@
 {
-  "batchLabel": "2026-08-13 final carousel encoding repair",
-  "instructions": "Remove the corrupted statistics strip, use CSS-only carousel arrows, and keep five navigation dots centered at the bottom of the banner."
+  "batchLabel": "2026-08-13 enable automatic product publishing",
+  "instructions": "Allow every product created or edited in the management panel to trigger a fresh production build automatically."
 }
