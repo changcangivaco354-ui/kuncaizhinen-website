@@ -10,7 +10,7 @@
   </style>
 </head>
 <body>
-<div class="batch-help"><strong>Batch publishing:</strong> Open “Add 1–3 Products — Publish Once”, add up to three products, then publish once. Products automatically appear in their matching homepage category.</div>
+<div class="batch-help"><strong>Batch publishing:</strong> Open "Add 1-3 Products - Publish Once", add up to three products, then publish once. Each batch is saved separately, so earlier products remain online.</div>
 <script>window.CMS_MANUAL_INIT = true;</script>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 <script src="https://unpkg.com/decap-cms@^3.8.0/dist/decap-cms.js"></script>
@@ -53,10 +53,11 @@ CMS.init({config:{
   media_folder:'uploads',
   public_folder:'/uploads',
   collections:[
-    {name:'productBatch',label:'Add 1–3 Products — Publish Once',files:[{name:'currentBatch',label:'Current Product Batch',file:'content/product-batch.json',format:'json',fields:[
-      {label:'Products (maximum 3)',name:'products',widget:'list',max:3,minimize_collapsed:true,summary:'{{fields.name}}',fields:productFields}
-    ]}]},
-    {name:'products',label:'Single Products — manage individually',folder:'products',create:true,delete:true,extension:'json',format:'json',identifier_field:'name',slug:'{{slug}}',summary:'{{name}}',fields:productFields},
+    {name:'productBatches',label:'Add 1-3 Products - Publish Once',folder:'product-batches',create:true,delete:true,extension:'json',format:'json',identifier_field:'batchName',slug:'{{slug}}',summary:'{{batchName}}',fields:[
+      {label:'Batch name',name:'batchName',widget:'string',hint:'Example: 2026-08-13 morning batch'},
+      {label:'Products (maximum 3)',name:'products',widget:'list',max:3,min:1,minimize_collapsed:true,summary:'{{fields.name}}',fields:productFields}
+    ]},
+    {name:'products',label:'Single Products - manage individually',folder:'products',create:true,delete:true,extension:'json',format:'json',identifier_field:'name',slug:'{{slug}}',summary:'{{name}}',fields:productFields},
     {name:'release',label:'Publish Website — once after 1–2 products',files:[{name:'releaseWebsite',label:'Publish pending products to live website',file:'release.json',format:'json',fields:[
       {label:'Batch label (change this every time)',name:'batchLabel',widget:'string',hint:'Example: 2026-08-10 batch 2'},
       {label:'Instructions',name:'instructions',widget:'hidden',default:'After saving up to two products, change this text and publish once to update the live website.'}
