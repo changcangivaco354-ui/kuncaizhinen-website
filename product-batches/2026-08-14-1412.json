@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "mainImage": "/uploads/chatgpt-image-2026年8月12日-16_18_14-3-.png",
+      "summary": "Carefully selected Goji Berries (Lycium barbarum) from Ningxia, China, featuring their naturally vibrant red color, pleasantly sweet taste, and chewy texture. The dried berries are packed in a clear sealed jar for convenient storage and easy product inspection. They can be enjoyed directly as a snack, steeped in hot water, or added to tea, porridge, soup, and other botanical blends. Each bottle contains 150 g. Berry grade, net weight, jar size, packaging, labels, and private-label branding can be customized according to customer requirements. OEM/ODM and bulk supply services are available.",
+      "categorySlug": "herbal-slices",
+      "name": "Goji Berries",
+      "slug": "goji-berries-lycium-barbarum",
+      "featured": true,
+      "gallery": [
+        "/uploads/chatgpt-image-2026年8月12日-16_18_14-2-.png",
+        "/uploads/chatgpt-image-2026年8月12日-16_18_14-2-.png",
+        "/uploads/chatgpt-image-2026年8月12日-18_00_50-1-.png",
+        "/uploads/chatgpt-image-2026年8月12日-18_00_50-2-.png"
+      ],
+      "service": "OEM / ODM / Private Label / Custom Grading / Custom Net Weight / Custom Packaging / Custom Labels / Bulk Supply",
+      "formats": "Dried Goji Berries / Retail Jars / Gift Packaging / Bulk Supply",
+      "description": "Product Name: Goji Berries\nBotanical Name: Lycium barbarum\nNet Content: 150 g / Bottle\nOrigin: Ningxia, China\nType: Dried Herbal Fruit\nPackaging: Clear Jar with Sealed Lid\nAppearance: Naturally Dried Red Berries\nTaste Profile: Naturally Sweet with a Pleasant Chewy Texture\nSuggested Use: Snack, Herbal Tea, Porridge, Soup, or Botanical Blends\nEnjoy directly as a snack, steep in hot water for a simple botanical beverage, or add to tea, porridge, soup, oats, and other food or herbal formulations.",
+      "category": "Herbal Ingredients & Dried Fruits"
+    },
+    {
+      "mainImage": "/uploads/chatgpt-image-2026年8月12日-15_45_50-1-.png",
+      "summary": "Carefully selected Yu Zhu (Polygonatum odoratum) slices from Hunan, China, featuring a natural light golden appearance and a mild, delicate taste. The dried botanical slices are packed in a clear sealed jar for convenient storage and easy product inspection. Suitable for everyday herbal tea preparation and botanical blends. Simply steep several slices in hot water for a smooth and pleasant herbal beverage. Each bottle contains 60 g. Slice size, thickness, net weight, jar specifications, packaging, labels, and private-label branding can be customized according to customer requirements. OEM/ODM and bulk supply services are available.",
+      "categorySlug": "herbal-slices",
+      "name": "Yu Zhu (Polygonatum Odoratum) Slices",
+      "slug": "yu-zhu-polygonatum-odoratum-slices",
+      "featured": true,
+      "gallery": [
+        "/uploads/chatgpt-image-2026年8月12日-15_45_51-2-.png",
+        "/uploads/chatgpt-image-2026年8月12日-15_45_51-3-.png",
+        "/uploads/chatgpt-image-2026年8月12日-15_45_52-4-.png",
+        "/uploads/chatgpt-image-2026年8月12日-15_45_52-5-.png"
+      ],
+      "service": "OEM / ODM / Private Label / Custom Cutting & Sizing / Custom Net Weight / Custom Packaging / Custom Labels / Bulk Supply",
+      "formats": "Dried Yu Zhu Slices / Retail Jars / Gift Packaging / Bulk Supply",
+      "description": "Product Name: Yu Zhu Slices\nBotanical Name: Polygonatum odoratum\nNet Content: 60 g / Bottle\nOrigin: Hunan, China\nType: Dried Herbal Slices\nPackaging: Clear Jar with Sealed Lid\nAppearance: Natural Light Golden Slices\nTaste Profile: Mild and Delicate\nSuggested Use: Steep with Hot Water for Tea\n\nHow to Brew \n\nEnglish:\n\nAdd several Yu Zhu slices to a cup.\nPour in hot water.\nSteep for 5–10 minutes.\nEnjoy warm.\n\nYu Zhu slices can also be combined with other botanical ingredients according to the desired tea blend or formulation.",
+      "category": "Herbal Ingredients & Botanical Slices"
+    }
+  ],
+  "batchName": "2026-08-14-1412"
+}
