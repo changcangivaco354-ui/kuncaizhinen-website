@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "categorySlug": "herbal-beverages",
+      "featured": true
+    },
+    {
+      "categorySlug": "herbal-beverages",
+      "featured": true
+    },
+    {
+      "categorySlug": "herbal-beverages",
+      "featured": true
+    },
+    {
+      "mainImage": "/uploads/chatgpt-image-2026年8月13日-17_41_12-5-.png",
+      "summary": "Dietary Supplements",
+      "categorySlug": "softgels",
+      "name": "Reishi Taurine Vitamin E Capsules",
+      "slug": "reishi-taurine-vitamin-e-capsules",
+      "featured": true,
+      "gallery": [
+        "/uploads/chatgpt-image-2026年8月13日-17_41_10-2-.png",
+        "/uploads/chatgpt-image-2026年8月13日-17_41_11-3-.png",
+        "/uploads/chatgpt-image-2026年8月13日-17_41_11-4-.png",
+        "/uploads/chatgpt-image-2026年8月13日-17_41_10-1-.png"
+      ],
+      "service": "OEM / ODM / Private Label Manufacturing / Custom Formulation / Custom Capsule Specifications / Custom Packaging",
+      "formats": "Capsules / Retail Bottles / Bulk Supply",
+      "description": "A convenient daily supplement formula combining Reishi extract, taurine, vitamin E, and tomato extract in an easy-to-take capsule format. Each capsule contains 0.4 g, with 60 capsules per bottle and a total net content of 24 g. Designed for convenient everyday nutritional supplementation. Formula, ingredient ratios, capsule specifications, fill quantity, bottle design, packaging, labels, and branding can be customized according to private-label customer requirements. OEM/ODM and bulk supply services are available.\nReishi extract-based formula\nContains taurine and vitamin E\nAdded tomato extract\nConvenient capsule format\n60 capsules per bottle\nSuitable for daily nutritional supplementation\nPrivate-label customization available",
+      "category": "Herbal & Nutritional Supplements"
+    },
+    {
+      "mainImage": "/uploads/chatgpt-image-2026年8月12日-15_52_21-1-.png",
+      "summary": "Carefully selected American Ginseng (Panax quinquefolius) slices with a clean appearance, natural botanical character, and mild, slightly sweet taste. The dried slices are conveniently packed in a clear sealed jar and can be steeped with hot water for everyday herbal tea preparation or combined with other botanical ingredients such as goji berries and chrysanthemum. Each bottle contains 60 g. Slice thickness, net weight, jar size, packaging, labels, and private-label branding can be customized according to customer requirements. OEM/ODM and bulk supply services are available.",
+      "categorySlug": "herbal-slices",
+      "name": "American Ginseng Slices",
+      "slug": "american-ginseng-slices",
+      "featured": true,
+      "gallery": [
+        "/uploads/chatgpt-image-2026年8月12日-15_52_21-2-.png",
+        "/uploads/chatgpt-image-2026年8月12日-15_52_23-3-.png",
+        "/uploads/chatgpt-image-2026年8月12日-15_52_24-4-.png"
+      ],
+      "service": "OEM / ODM / Private Label / Custom Cutting & Sizing / Custom Packaging / Custom Labels / Bulk Supply",
+      "formats": "Dried Ginseng Slices / Retail Jars / Bulk Supply",
+      "description": "Product Name: American Ginseng Slices\nBotanical Name: Panax quinquefolius\nNet Content: 60 g / Bottle\nOrigin: Jilin, China\nType: Dried American Ginseng Slices\nPackaging: Clear Jar with Sealed Lid\nTaste Profile: Clean and Slightly Sweet\nSuggested Use: Steep with Hot Water for Tea\n\nCarefully selected American ginseng\nVisible natural slices\nMild and slightly sweet taste\nConvenient sealed jar packaging\nEasy to brew\nSuitable for herbal tea blends\nPrivate-label customization available\n\nAdd several American ginseng slices to a cup.\nPour in hot water.\nSteep for 5–10 minutes.\nEnjoy warm.\n\nFor a customized botanical tea blend, it can also be paired with goji berries or chrysanthemum.",
+      "category": "Herbal Ingredients & Botanical Slices"
+    }
+  ],
+  "batchName": "2026-08-14-14"
+}
